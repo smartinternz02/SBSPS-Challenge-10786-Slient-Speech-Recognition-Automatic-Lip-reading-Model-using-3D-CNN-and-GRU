@@ -1,0 +1,106 @@
+
+@font-face {
+  font-family: IBMPlexRegular;
+  src: local('IBMPlexSans-Regular'), 
+  url('./fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+.cam-win {
+  margin: 0 auto;
+  width: 640px;
+  height: 360px;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  /* display: flex;*/
+  justify-content: center; 
+  display: flex;
+  position: relative;
+  box-shadow: 4px 4px 8px #20202020;
+  padding: 0;
+  
+}
+
+.video-win{
+  width: 100%;
+  height: 312px;
+  background-color: #fff0d27d;
+  display: flex;
+  position: relative;
+  border-radius: 12px;
+  
+}
+.cam-btn-active{
+  background-color: #80D2AB;
+  color: #ffffff;
+  padding-top: 6px;
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+  border-radius: 100%;
+  height: 2.3rem;
+  width: 2.3rem;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.enable-cam-btn{
+  height: 2.3rem;
+  width: 8rem;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  /* left: 38%; */
+  background-color: #80D2AB;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.cam-btn{
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+  border-radius: 100%;
+  height: 2.3rem;
+  width: 2.3rem;
+  outline: none;
+  border: none;
+  background-color: #45D6E2;
+  color: #ffffff;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.pos-bottom{
+  
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  
+  
+}
+.output-box{
+  width: 640px;
+  height: 96px;
+  background-color: #ffffff;
+  margin: 1rem auto;
+  border-radius: 0.75rem;
+  box-shadow: 4px 4px 8px #20202020;
+  padding: 12px 24px;
+}
+
+textarea{
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  font-family: IBMPlexRegular;
+}
+
+h5{
+  margin: 0;
+  padding: 0.75rem;
+  text-align: center;
+}

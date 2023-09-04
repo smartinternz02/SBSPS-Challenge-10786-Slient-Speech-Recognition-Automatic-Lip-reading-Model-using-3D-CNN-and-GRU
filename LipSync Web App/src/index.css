@@ -1,0 +1,99 @@
+@font-face {
+  font-family: IBMPlexBold;
+  src: local('IBMPlexSans-Bold'), 
+  url('./fonts/IBMPlexSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IBMPlexMedium;
+  src: local('IBMPlexSans-Medium'), 
+  url('./fonts/IBMPlexSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IBMPlexRegular;
+  src: local('IBMPlexSans-Regular'), 
+  url('./fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+:root {
+  font-family: IBMPlexRegular;
+  line-height: 1;
+  font-weight: 400;
+
+  
+  color:  #202020;
+  background-color: #FFF0D2;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar{
+  margin-top: 1rem;
+  
+}
+
+.nav {
+  background-color: #FFF0D2;
+  color: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  margin-bottom: 96px;
+}
+
+.nav ul {
+  padding: 0;
+  margin-right: 21rem;
+  margin-left: 21rem;
+  font-size: 1.25rem;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.login-button {
+  justify-content: end;
+  background-color: #45D6E2;
+  border: none;
+  border-radius: 0.75rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.site-title{
+  justify-content: start;
+  font-size: 2rem;
+  font-family: IBMPlexBold;
+  
+}
+
+
+
